@@ -1,0 +1,6 @@
+export * from './email-icon'
+export * from './password-icons'
+export * from './user-icon'
+export * from './man-icon'
+export * from './nickname-icon'
+export * from './woman-icon'

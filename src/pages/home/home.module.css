@@ -1,0 +1,24 @@
+.menuItem {
+    margin: 5px 10px;
+    border-radius: 8px;
+}
+
+.btnFixed {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 201;
+}
+.mantineCarouselControl,
+.mantineCarouselIndicator {
+    background: white !important;
+}
+
+.activeBtn {
+    background-color: rgb(60, 161, 255) !important;
+    color: white !important;
+}
+.btn {
+    background-color: white !important;
+    color: rgb(60, 161, 255) !important;
+}
