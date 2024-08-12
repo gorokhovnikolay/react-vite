@@ -1,3 +1,10 @@
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.js')
+        .then((sw) => console.log('Ok', sw))
+        .catch((e) => console.log('not Ok', e))
+}
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
